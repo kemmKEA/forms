@@ -1,0 +1,26 @@
+input {
+  background-color: bisque;
+  border-radius: 5px;
+}
+.formfield {
+  border: 1px rgb(188, 182, 182) solid;
+  background-color: rgb(209, 200, 200);
+  border-radius: 5px;
+  padding: 7px;
+}
+
+form,
+fieldset {
+  display: grid;
+  gap: 1em;
+  max-width: 250px;
+}
+legend {
+  background-color: #000;
+  color: #ddd;
+  padding: 2px;
+  justify-self: right;
+}
+form > button {
+  max-width: 75px;
+}
