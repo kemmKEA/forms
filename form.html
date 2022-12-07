@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <title>Webforms</title>
+  </head>
+  <body>
+    <form name="contactform" netlify>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <div class="formfield">
+          <label for="firstname">First name</label>
+          <input name="firstname" id="firstname" />
+        </div>
+        <div class="formfield">
+          <label for="lastname">First name</label>
+          <input name="lastname" id="lastname" />
+        </div>
+        <div class="formfield">
+          <label for="birth">Date of birth</label>
+          <input name="birth" id="birth" type="number" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Favourite Pet(s)</legend>
+        <div class="formfield">
+          <label for="pet">Cat</label>
+          <input name="cat" id="cat" type="checkbox" />
+        </div>
+        <div class="formfield">
+          <label for="dog">Dog</label>
+          <input name="dog" id="dog" type="checkbox" />
+        </div>
+        <div class="formfield">
+          <label for="Spider">Spider</label>
+          <input name="Spider" id="Spider" type="checkbox" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Usertest Applied</legend>
+        <div class="formfield">
+          <label for="trunk">Cat</label>
+          <input name="usertest" id="trunk" type="radio" />
+        </div>
+        <div class="formfield">
+          <label for="fivesec">Dog</label>
+          <input name="usertest" id="fivesec" type="radio" />
+        </div>
+        <div class="formfield">
+          <label for="think">Spider</label>
+          <input name="usertest" id="think" type="radio" />
+        </div>
+      </fieldset>
+
+      <button type="submit">Send</button>
+    </form>
+    <script src="js/forms.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <title>Webforms</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <!-- <legend>Personal Info</legend> -->
+        <div class="formfield">
+          <label for="firstname">First name</label>
+          <input id="firstname" name="firstname" />
+        </div>
+        <div class="formfield">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" />
+        </div>
+      </fieldset>
+
+      <input id="pw" name="pw" type="password" />
+      <input id="ch" name="ch" type="checkbox" />
+      <input id="ch2" name="ch2" type="checkbox" />
+
+      <input id="ra" name="ra" type="radio" />
+      <input id="ra2" name="ra" type="radio" />
+
+      <button type="submit">Send</button>
+    </form>
+
+    <script src="js/forms.js"></script>
+  </body>
+</html>
